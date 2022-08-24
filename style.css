@@ -1,12 +1,10 @@
-.body{
-    background-color: aliceblue;
+.titulo{
+    color: rgb(114, 0, 0);
+    
 }
-#header{
-    text-align: right;
+
+.subtitulo{
+    color:green;
+
 }
-#id_oi{
-    text-align: left;
-    padding: 10px;
-    background-color: rgb(213, 225, 243);
-    display: block;
-}
+
