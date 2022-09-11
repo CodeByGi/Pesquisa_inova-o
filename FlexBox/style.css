@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vmin;
+    background-color: rgb(77, 77, 77);
+}
+
+#container_1 {
+    justify-content: flex-start;
+
+}
+
+#container_2 {
+    justify-content: flex-end;
+
+}
+
+#container_3 {
+    justify-content: center;
+
+}
+
+#container_4 {
+    justify-content: space-between;
+
+}
+
+#container_5 {
+    justify-content: space-around;
+}
+
+#container_6 {
+    justify-content: space-evenly;
+
+}
+
+.container-exercicioB{
+flex-direction: column;
+background-color: rgb(77, 77, 77);
+margin-bottom: 2vmin;
+    }
+
+#container-desafio{
+    flex-wrap: wrap-reverse;
+
+}
+.flex-item {
+    height: 15vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    border-radius: 30%;
+}
+
+.flex-item h3 {
+    margin-left: 3rem;
+}
+
+.box-a {
+    background-color: rgb(97, 160, 255);
+}
+
+.box-b {
+    background-color: rgb(32, 32, 255);
+}
+
+.box-c {
+    background-color: rgb(145, 5, 121);
+}
+
+.box-d {
+    background-color: rgb(245, 245, 101);
+}
